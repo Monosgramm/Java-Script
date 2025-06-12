@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabs</title>
+	<link rel="icon" type="images/png" href="/icons/main-icon.png">
+	<link rel="stylesheet" href="/css/04-modal.css">
+</head>
+	<body>
+		<div class="container">
+			<h1 class="mb-4">Modal Window</h1>
+
+			<button 
+				data-modal-button="modal-1"
+				class="btn btn-outline-primary mb-1"
+				type="button"
+			>
+				Open modal window №1
+			</button>
+		</div>
+
+		<div id="modal-1" data-modal class="hidden">
+			<div class="modal-overlay">
+				<div class="modal-window">
+					<div class="card">
+						<div class="card-header">
+							Modal Window #1
+						</div>
+						<div class="card-body">
+							<p>
+								Lorem ipsum dolor, sit amet consectetur adipisicing <br>
+								elit. Maiores, minus!
+							</p>
+							<button 
+								data-modal-close
+								type="button"
+								class="btn btn-dark"
+							>
+								Close Window
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="/JavaScript/04-modal.js"></script>
+	</body>
+</html> 

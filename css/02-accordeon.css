@@ -1,0 +1,44 @@
+@import url(/css/reset.css);
+
+.mb-4 {
+	margin: 100px 100px;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.h5 {
+	font-weight: 700;
+}
+
+.list-header {
+	width: 120px;
+	border:  1px solid blue;
+	padding: 5px;
+	border-radius: 12px;
+}
+
+.list-header:hover {
+	color: rgb(89, 86, 86);
+}
+
+.list-group {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	margin: 100px 100px;
+	gap: 15px;
+	font-size: 18px;
+}
+
+.hidden {
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	margin: -1px !important;
+	border: 0 !important;
+	padding: 0 !important;
+	white-space: nowrap !important;
+	clip-path: inset(100%) !important;
+	clip: rect(0 0 0 0) !important;
+	overflow: hidden !important;
+}
