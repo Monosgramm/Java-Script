@@ -1,5 +1,3 @@
-"use strict!";
-
 //Found all tab headers by data attribute;
 const tabHeaders = document.querySelectorAll('[data-tab]');
 
